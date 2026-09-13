@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className="h-25 bg-white sticky z-50 border-b border-gray-200 top-0">
 
-    <div className="grid grid-cols-3  container mx-auto sticky  top-0 h-25 ">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3  container mx-auto sticky  top-0 h-25 ">
         <div className="content-center mx-5 ">
             <img className="h-14" src="/assets/logo-text.png" />
         </div>

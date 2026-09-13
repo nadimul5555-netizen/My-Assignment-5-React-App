@@ -12,7 +12,7 @@ export interface AvilableTechProps {
 const AvilableTech = ({ toUse,addTech,setAddTech}: AvilableTechProps) => {
     
     return (
-        <div className="grid grid-cols-3">
+        <div className="grid sm:grid-cols-1  lg:grid-cols-3">
             {
                 toUse.map((Tech,ind)=> <TechCards Tech={Tech} key={ind} addTech={addTech} setAddTech={setAddTech} ></TechCards>)
             }
