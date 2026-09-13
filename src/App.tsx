@@ -5,6 +5,7 @@ import Technologies from './component/Technologies';
 import  type{ TechTypes } from './TechTypes';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import BigFooter from './component/BigFooter';
 
 
 
@@ -28,6 +29,7 @@ function App() {
 
   <Technologies TechPromis={TechPromis} ></Technologies>
   </Suspense>
+  <BigFooter></BigFooter>
     </>
   )
 }

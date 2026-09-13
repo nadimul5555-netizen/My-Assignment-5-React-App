@@ -55,7 +55,7 @@ const SelectedTech = ({ addTech, setAddTech }: SelectedTechProps) => {
                 </div>
                 <div className="m-3">
                     {
-                        addTech.length > 0 ? <button onClick={()=> handleRemoveAll([])} className="btn btn-block">Remove All</button> : <div className="bg-base-100 shadow-md m-4 h-20  flex items-center justify-center rounded-2xl border border-dashed border-gray-200 ">Your stack is empty.</div>
+                        addTech.length > 0 ? <button onClick={()=> handleRemoveAll([])} className="btn btn-block text-red-500 border-red-400">Remove All</button> : <div className="bg-base-100 shadow-md m-4 h-20  flex items-center justify-center rounded-2xl border border-dashed border-red-300 ">Your stack is empty.</div>
                     }
                 </div>
             </div>

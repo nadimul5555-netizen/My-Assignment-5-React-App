@@ -14,8 +14,8 @@ const Technologies = ({ TechPromis }: TechnologiesProps) => {
     
    
     return (
-        <div>
-            <div className="container mx-auto p-6">
+        <div className="mb-15">
+            <div className="container mx-auto p-6 my-10">
 
             <h2 className="font-extrabold text-5xl">Explore the <span className=" bg-linear-to-r from-[#EC4899] to-blue-500 bg-clip-text text-transparent">Technologies</span></h2>
             <p className="text-[#475569] my-3 text-2xl">Pick one technology per category to build your ideal stack.</p>
