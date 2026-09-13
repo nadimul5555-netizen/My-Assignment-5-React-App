@@ -2,15 +2,6 @@ Project Name: Nadim DevStack
 
 Nadim DevStack is a modern and responsive technology stack builder built with React and TypeScript. It has sum features Like Selecting ,Deleting all Deleting etc.
 
-## 🌐 Live Website
-
-🔗 Live Demo: [Add Your Netlify/Vercel Live Link Here]
-
-## 📂 Repository
-
-🔗 GitHub: [Add Your GitHub Repository Link Here]
-
----
 
 ## 🛠️ Technologies Used
 
