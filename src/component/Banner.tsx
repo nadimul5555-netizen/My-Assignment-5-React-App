@@ -4,11 +4,11 @@ const Banner = () => {
     return (
         <div className=' grid lg:grid-cols-2 container mx-auto my-20'>
             <div className="my-auto mx-8">
-                <h1 className='  lg:text-7xl  font-bold' >Build Your Ideal</h1>
-                <h1 className="py-5 lg:text-7xl font-bold bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">
+                <h1 className=' text-2xl  lg:text-7xl  font-bold' >Build Your Ideal</h1>
+                <h1 className="py-5 text-2xl lg:text-7xl font-bold bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">
                     Development Stack
                 </h1>
-                <h2 className='lg:text-2xl leading-10 text-[#475569]'>Explore frontend, backend, database, and tooling options,
+                <h2 className='text-2xl leading-10 text-[#475569]'>Explore frontend, backend, database, and tooling options,
                     compare them side by side, and put together the stack that fits your
                     next project.</h2>
                 <div className='lg:flex gap-3 my-10'>
